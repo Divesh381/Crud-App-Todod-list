@@ -1,0 +1,25 @@
+.container{
+  position: relative;
+     margin:60px auto auto auto;
+     justify-content: center;
+    text-align: center;
+    background-color: rgb(87, 92, 92);
+    padding: 1%;
+    /* width: 50%; */
+    height: 31em;
+    border: 2px solid rgb(165, 49, 49);
+    box-shadow: 10px 10px 10px 2px rgb(63, 63, 63); 
+    width: 60%;
+    /* margin: auto; */
+    /* border: solid black 2px; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 1px;
+    
+}
+.InputContainer{
+  margin-top: 0%;
+}
+
+

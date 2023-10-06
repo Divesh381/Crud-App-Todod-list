@@ -1,0 +1,106 @@
+.formcontainer {
+    /* width: 100%; */
+    align-items: center;
+    background-color: blueviolet;
+    margin: auto 13% auto 13%;
+    
+}
+
+.listitems {
+
+    /* background-color: rgb(171, 226, 43); */
+    align-items: center;
+    height: auto;
+    margin: auto 13% auto 13%;
+    text-align: center;
+}
+
+.Allbtn {
+    display: inline-flex;
+    float: right;
+    margin-right: 3px !important;
+    /* top: -5px; */
+    align-items: center;
+    justify-content: center;
+    position: relative ;
+   
+}
+
+.editInputUser {
+
+    width: 40%;
+    height: 35px;
+    border: none;
+    outline: none !important;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+
+.btn {
+  
+    background-color: blue;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    margin: 0 auto 0px 5px;
+
+}
+
+.btnEdit{
+   
+    align-items: center;
+     font-size:25px;
+     width:35px;
+     padding: 0px 0px 35px 6px;
+     margin-top: 1px;
+     height: 30px;
+     background-color: #28ebe1;
+    border-radius: 5px;
+     /* top: -5; */
+     /* margin: 1px; */
+}
+.btnEdit:hover{
+    background-color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 195, 255);
+}
+
+.btnDelete {
+    /* margin-bottom : -23%;; */
+    background-color: rgb(194, 36, 36);
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+li{
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+li:nth-child(1) {
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    /* text-wrap: wrap; */
+    /* text-overflow: inherit; */
+    /* overflow-x:wrap; */
+    word-wrap: break-word;
+    /* color: #fff; */
+}

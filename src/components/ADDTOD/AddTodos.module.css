@@ -1,0 +1,55 @@
+
+.containerAll{ 
+    padding: auto;
+}
+#userinput{
+    width:60% ;
+    height :2.5em;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+#userinput:hover{
+  border: 1px solid blue ;
+}
+.formHeadName{
+    font-size:2rem;
+    font-weight: 700;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+}
+
+#btn{
+    width:13%;
+    height:6vh;
+    border-radius: 13px;
+    background-color: blue;
+        color:#fff;
+            font-size: large;
+            margin-left:3px !important;
+            margin-bottom:-4%!important;
+            font-family:'Poppins', sans-serif;      
+     }
+     @media only screen and (max-width: 600px){
+        /* body {font-family:'Poppins', sans-serif;} */
+        #btn{
+            font-size: 15px;
+            width: auto;
+        }
+     }
+#btn:hover{
+    background:#b20ddb !important;
+
+}
+.Emptydata{
+    margin-top: 0.5%;
+    background-color: rgb(180, 39, 14);
+    border-radius: 10px;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   color: #fff;
+
+}
+.Emptydata:hover{
+    background-color: red;
+}
